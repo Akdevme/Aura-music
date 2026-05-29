@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .scrollbar-hidden-custom::-webkit-scrollbar {
+    width: 0px;
+  }
+  .scrollbar-hidden-custom::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .scrollbar-hidden-custom::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+}
