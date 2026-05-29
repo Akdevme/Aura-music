@@ -1,0 +1,55 @@
+{
+  "name": "AURA TUNE - Music Player",
+  "short_name": "AURA TUNE",
+  "id": "/",
+  "description": "Discover songs, play previews, and save your Aura playlists.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#12071f",
+  "theme_color": "#12071f",
+  "categories": ["music", "entertainment"],
+  "icons": [
+    {
+      "src": "/icons/aura-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/aura-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/aura-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/aura-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Playlists",
+      "short_name": "Playlists",
+      "description": "Open your saved Aura playlists.",
+      "url": "/?section=playlist",
+      "icons": [
+        {
+          "src": "/icons/aura-icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
